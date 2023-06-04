@@ -16,8 +16,7 @@ const BlogDetails = () => {
   }
   return (
     <div className="blog-details">
-      {/* now it will access the parameters from the route */}
-      {/* <h2>Blog Details - { id }</h2> */}
+
       {loading && <div>Loading...</div>}
       {errors && <div>{errors}</div>}
       {blogs && (
