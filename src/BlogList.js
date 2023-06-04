@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
 
 const BlogList = ({ blogs, title }) => {
-  // above instead of writting props we can destructure it
-  // into like {blogs , tilte} or you can write (props) like this
-
-  // we don't have to write this it will work
-  // const blogs = props.blog;
-  // const title = props.title;
-  // console.log(props , blogs);
 
   return (
     <div className="blogs-list">
