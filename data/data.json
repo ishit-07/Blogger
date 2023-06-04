@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "A blog, short for weblog, is a frequently updated web page used for personal commentary or business content. Blogs are often interactive and include sections at the bottom of individual blog posts where readers can leave comments.",
+      "author": "Ishit",
+      "id": 1
+    },
+    {
+      "title": "My Second Blog",
+      "body": "A blog (a shortened version of “weblog”) is an online journal or informational website displaying information in reverse chronological order, with the latest posts appearing first, at the top. It is a platform where a writer or a group of writers share their views on an individual subject.",
+      "author": "Bhanu",
+      "id": 2
+    },
+    {
+      "title": "Learning Javascript",
+      "body": "Best way to learn JavaScript is to implement and making projects.",
+      "author": "Ishit",
+      "id": 3
+    },
+    {
+      "title": "I am learning JavaScript.",
+      "body": "sfnsdfnskdf",
+      "author": "",
+      "id": 4
+    }
+  ]
+}

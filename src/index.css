@@ -1,13 +1,135 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1{
+  font-size: 40px;
+  color:#f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar .links a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blogs-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(240, 219, 219);
+}
+
+.blogs-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blogs-preview a{
+  text-decoration: none;
+}
+
+.blogs-preview h1{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blogs-preview h1 + p{
+  font-size: 15px;
+}
+.blogs-preview h1 + p ~ p{
+  font-size: 13px;
+  text-align: center;
+}
+
+
+/* Creating a blog */
+
+.create{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create h2{
+  text-align: center;
+}
+
+form{
+  margin-top: 40px;
+}
+
+form label{
+  margin-bottom: 10px;
+  text-align: left;
+  display: block;
+}
+
+form input,form textarea,form select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+/* Blog details delte */
+article{
+  text-align: center;
+}
+article h2, article h5, article div{
+  text-align: left;
+}
+
+form button,article button,.not-found button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-size: 15px; 
+  text-align: center;
+}
+
+/* 404 Not Found */
+
+.not-found{
+  max-width: 600px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.not-found img{
+  height: 450px;
+  width: 600px;
 }
